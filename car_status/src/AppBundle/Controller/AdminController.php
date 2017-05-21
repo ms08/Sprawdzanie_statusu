@@ -25,6 +25,8 @@ class AdminController extends Controller
         return $this->render('AppBundle:Admin:delete_table.html.twig', array(
             // ...
         ));
+
+        
     }
 
 }
