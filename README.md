@@ -7,7 +7,7 @@ Dzięki temu Klienci będą mogli sami sprawdzić status zamówionego pojazdu w 
 
 
 Głowne 2 zadania:
-- odciążenie handlowców z konieczności "pamiętania" o Klientach 
+- odciążenie handlowców z konieczności "pamiętania" o Klientach :)
 - danie użytkownikom bieżącego monitorowania samochodu w fabryce 
 
 
