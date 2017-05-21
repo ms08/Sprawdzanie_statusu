@@ -26,7 +26,7 @@ class AdminController extends Controller
             // ...
         ));
 
-        
+
     }
 
 }
