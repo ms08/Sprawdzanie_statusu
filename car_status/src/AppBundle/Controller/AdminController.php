@@ -19,7 +19,7 @@ class AdminController extends Controller
         $form = $this -> createFormBuilder($data)
             ->add('file',FileType::class,array('label'=>'Plik'))
         ->getForm();
-        
+
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid())
