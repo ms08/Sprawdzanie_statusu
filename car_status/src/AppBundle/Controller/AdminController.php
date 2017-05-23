@@ -20,9 +20,6 @@ class AdminController extends Controller
             ->add('file',FileType::class,array('label'=>'Plik'))
         ->getForm();
         
-
-
-
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid())
@@ -43,7 +40,6 @@ class AdminController extends Controller
         return $this->render('AppBundle:Admin:delete_table.html.twig', array(
             // ...
         ));
-
 
     }
 
