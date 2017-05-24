@@ -37,6 +37,11 @@ class AdminController extends Controller
      */
     public function deleteTableAction()
     {
+
+        $em = $this->getDoctrine()->getManager();
+
+        $query = $em->createQuery('DEL p FROM AppBundle:Product p WHERE');
+
         return $this->render('AppBundle:Admin:delete_table.html.twig', array(
             // ...
         ));
